@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./assets/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(151, 151, 151);
+    height: 35vh;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.header-button #perfil {
+    width: 25vh;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-left: 2%;
+}
+
+#git, #link, #insta {
+    margin-top: 15vh;
+    height: 22px;
+    border: 2px solid #fff;
+}
+
+.social a:hover {
+    scale: 1.1;
+}
+
+section {
+    margin-top: 10%;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
